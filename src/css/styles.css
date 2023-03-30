@@ -18,3 +18,46 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.list-of-countries__elem,
+.desired-country__box,
+.desired-country__elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.list-of-countries__elem,
+.desired-country__elem {
+  list-style-type: none;
+}
+
+.desired-country__box {
+  padding-left: 40px;
+}
+
+.list-of-countries__flag-box,
+.desired-country__flag-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+}
+
+.list-of-countries__img,
+.desired-country__img {
+  display: block;
+  height: inherit;
+}
+
+.list-of-countries__header,
+.desired-country__header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.desired-country__options {
+  font-weight: bold;
+}
